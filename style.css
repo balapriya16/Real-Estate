@@ -1,0 +1,161 @@
+
+#title {
+  
+  /* padding: 2% 2% 0% 2%; */
+  position: fixed;
+  z-index: 1;
+  
+  
+  
+
+}
+
+
+body {
+   
+  /* background-image: linear-gradient(to bottom, #ffffff, #f3d79b, #f8cf78); */
+  background: radial-gradient(circle, rgba(249,211,149,1) 0%, rgba(242,234,219,1) 70%);
+  /* background-image: linear-gradient(to bottom, #ffffff, #cdc4e4, #a389c5, #7e4fa2, #5d007c); */
+}
+
+
+#home-title {
+  padding: 5% 2% 5% 2%;
+}
+
+.img11{
+  width: 60px;
+  height: 50px;
+  margin-left: 30px;
+  
+}
+
+.container{
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(10, 150px);
+  grid-template-rows: repeat(1, 70px);
+  /* position: fixed; */
+  
+  
+}
+
+.navBar{
+  /* background-color: aliceblue; */
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 20px;
+  
+
+}
+
+.links{
+  font-size: 1vw;
+  gap: 30px;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.buttons{
+  gap: 40px;
+  grid-column-start: 8;
+  grid-column-end: 13; 
+  /* margin-right: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  /* padding-left: 50px; */
+  /* margin-left: 50px; */
+  
+  
+}
+
+.btn2{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #f6d080;
+  border-color: #f6d080;
+}
+
+.FirstSec{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vw;
+  /* text-align: center; */
+  margin-left: 80px;
+
+}
+
+.side1{ 
+  display: 
+  padding-left: 150px;
+  padding-top: 30px;
+  flex-grow: 1;
+}
+
+.img1{
+  
+  display: inline-block;
+  transform: scale(1.2);
+  
+}
+.form1{
+  /* display: flex; */
+  flex-grow: 1;
+  /* margin-left: 2vw; */
+  /* margin-top: 15vw; */
+}
+
+.insidef{
+  /* border: 1px solid gray; */
+  border-width: 5vw;
+}
+
+input[type=text]{
+  padding: 15px 30px;
+  margin: 15px 0;
+}
+
+
+h1{
+  font-size: 3vw;
+}
+
+.btn3{
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
